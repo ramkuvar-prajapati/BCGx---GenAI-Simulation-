@@ -1,0 +1,27 @@
+# Financial Analysis Chatbot
+
+## Overview
+This is a simple prototype chatbot that provides financial insights based on the analyzed 10-K reports of Microsoft, Tesla, and Apple.
+
+## Functionality
+- The chatbot answers predefined financial queries related to total revenue, net income changes, total assets, total liabilities, and operating cash flow.
+- It extracts the latest available data and compares net income changes year over year.
+- The chatbot works by matching user queries to predefined responses.
+
+## How to Use
+1. Run the chatbot script (`chatbot.py`).
+2. Enter one of the predefined queries:
+   - "What is the total revenue?"
+   - "How has net income changed over the last year?"
+   - "What is the total assets value?"
+   - "What is the total liabilities value?"
+   - "What is the cash flow from operating activities?"
+3. The chatbot will return the requested financial information.
+
+## Limitations
+- The chatbot only responds to predefined queries and does not understand free-form questions.
+- It relies on the latest available financial data from the CSV file.
+- More advanced AI and NLP techniques would be needed for a fully functional financial assistant.
+
+## Test Results
+The chatbot was tested with various queries. The results are saved in `test_results.txt`.
